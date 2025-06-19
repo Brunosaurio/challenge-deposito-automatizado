@@ -12,7 +12,7 @@ public class Pedido {
     private String id;
     private List<Mercaderia> mercaderias;
     private boolean completado;
-    
+
     public Pedido(String id) {
         this.id = id;
         this.mercaderias = new ArrayList<>();
